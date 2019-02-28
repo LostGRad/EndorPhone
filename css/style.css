@@ -412,6 +412,8 @@ textarea::-ms-input-placeholder {
 .close{
     color: #aaa;
     float: right;
+    margin-right: 15%;
+    padding-top: 5%;
     font-size: 28px;
     font-weight: bold;
 }

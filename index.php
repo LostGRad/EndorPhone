@@ -106,7 +106,6 @@
                 </div>
                 <div class="block__map">
                     <div id="map"></div>
-                    <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1327.8099961075145!2d25.94498101634945!3d48.27168706754697!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473408cf198b53ff%3A0xf8260ffda972a384!2z0JPQvtC70L7QstC90LAg0LLRg9C70LjRhtGPLCAxMjIsINCn0LXRgNC90ZbQstGG0ZYsINCn0LXRgNC90ZbQstC10YbRjNC60LAg0L7QsdC70LDRgdGC0YwsIDU4MDAw!5e0!3m2!1suk!2sua!4v1551036729779" width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe> -->
                 </div>
             </div>
         </section>
@@ -144,15 +143,14 @@
             </div>
         </footer>
         <div class="modal" id="modal">
+            <span class="close">&#9932;</span>
             <div class="modal__content">
-                <span class="close">&times;</span>
                 <h2>Join Us</h2>
                 <div class="input__content">
                     <form class="" action="#" method="post" name="form" onsubmit="return vaidatForm()">
                         <input class="inputName" type="text" placeholder="Your Name">
                         <input class="inputPhone" type="text" placeholder="Your Phone" id="phoneNumber" required>
                         <input class="inputEmail" type="text" placeholder="Your Email" name='email' id="email" required>
-                        <!-- <input class="inputContent" type="text" placeholder="Content"> -->
                         <textarea class="inputContent" name="name" rows="8" cols="80" placeholder="Content"  maxlength="1000" id="content" required></textarea>
                         <button type="submit" onclick="validate(phoneNumber,email, content)">SEND MESSAGE</button>
                     </form>
