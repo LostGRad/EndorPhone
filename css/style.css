@@ -1,0 +1,582 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700,900');
+*{
+  margin:  0;
+  padding: 0;
+
+
+}
+body{
+    font-family: 'Roboto';
+}
+a{
+    text-decoration: none;
+}
+.wrapper{
+    width: 100%;
+}
+/*
+**********HEADER**********
+*/
+header{
+    background: url(../img/overlay.png) center center no-repeat;
+    width: 100%;
+    height: 670px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+button{
+    font-family: 'Roboto';
+}
+button:hover{
+    box-shadow: 0px 10px 5px 5px #252525;
+}
+.top{
+    width: 100%;
+    height: 140px;
+    display: flex;
+}
+nav{
+    padding-top: 84px;
+    margin-left: 8%;
+
+
+}
+.topnav a{
+    color: #ffffff;
+    text-align: center;
+    padding: 0px 30px 20px 30px;
+    font-weight:400;
+    text-transform: uppercase;
+    font-size: 14pt;
+}
+.topnav a:hover{
+    border-bottom: 2px solid #ffffff;
+}
+.topnav .icon{
+    display: none;
+}
+.logo{
+    margin-top: 40px;
+    background: url(../img/logo.png) center center no-repeat;
+    width: 140px;
+    height: 100px;
+    margin-left: 44%;
+}
+.w-66{
+    width: 66%;
+    margin: 0 auto;
+}
+.header p{
+  font-size: 14pt;
+  color: #ffffff;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 110px;
+}
+.wrapper h1{
+    margin-top: 70px;
+    color: #ffffff;
+    font-weight: 300;
+    text-align: center;
+    font-size: 60px;
+}
+.arrow {
+  background: url("../img/())-arrow.png") no-repeat;
+  position: absolute;
+  left: 48%;
+  top: 556px;
+  width: 50px;
+  height: 50px;
+  z-index: 135;
+}
+.arrow:hover{
+    width: 60px;
+    height: 60px;
+    left: 47.5%;
+    top: 550px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+/*
+**********ABOUT**********
+*/
+.about{
+    height: 420px;
+    text-align: center;
+    background-color: #f6f6f6;
+
+}
+.about .w-66{
+    width: 57%;
+}
+.about h2{
+    padding-top: 70px;
+    margin-bottom: 60px;
+    color: #171717;
+    font-size: 44pt;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.about p{
+    margin-top: 60px;
+    text-align: center;
+    color: #5f5f5f;
+    font-size: 15px;
+    font-weight: 400;
+}
+.about button{
+    color: #ffffff;
+    background-color: #252525;
+    font-size: 14pt;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-top: 50px;
+    padding: 20px 60px 20px 65px;
+}
+/*
+**********NUMBERS**********
+*/
+.numbers{
+    background: url(../img/numbers.png) center center no-repeat;
+    width: 100%;
+    height: 260px;
+    text-align:center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.container_numbers{
+    margin: 0 auto;
+    width: 90%;
+}
+.number{
+    display: inline-block;
+    padding-top: 110px;
+    margin-right: 80px;
+    height: 50px;
+    width: 220px;
+}
+.number img{
+    width: 40px;
+    height: 36px;
+}
+.left{
+    float: left;
+}
+.right{
+    padding-left: 60px;
+}
+.number h6{
+    text-align: left;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 900;
+}
+.number .right p{
+    text-align: left;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+/*
+**********CLIENTS**********
+*/
+.clients{
+    text-align:center;
+    height: 200px;
+    display: flex;
+}
+.container{
+    margin: 0 auto;
+    width: 80%;
+}
+.client{
+    display: inline-block;
+    width: 15%;
+    margin-top: 65px;
+    padding: 0px 25px 0px 25px;
+}
+.client img{
+    height: 65px;
+    width: 100px;
+}
+/*
+**********CONTACTS**********
+*/
+.contacts{
+    height: 500px;
+    background-color: #f6f6f6;
+}
+.block__contacts{
+    float: left;
+    padding-top: 100px;
+    width: 40%;
+    height: 290px;
+    left: 0;
+}
+.block__contacts h2{
+    text-transform: uppercase;
+    font-size: 44pt;
+    font-weight: 300;
+    padding-bottom: 25px;
+    color: #171717;
+}
+.block__contacts p{
+    margin-top: 20px;
+    color: #5f5f5f;
+    font-weight: 400;
+    font-size: 15px;
+}
+.block__contacts b{
+    color:#000000;
+}
+.block__map{
+    float: right;
+    padding-top: 100px;
+    width: 50%;
+    height: 311px;
+}
+#map {
+	width: 100%;
+	height: 310px;
+}
+/*
+**********FOOTER**********
+*/
+.footer{
+    width: 100%;
+    height: 415px;
+    background-color: #0a0a0a;
+}
+.footer.container{
+    width: 90%;
+}
+.footer h5{
+    font-size: 20pt;
+    font-weight: 900;
+    color: #ffffff;
+}
+.block__about__us{
+    float: left;
+    padding-top: 100px;
+    width: 25%;
+}
+.block__about__us p{
+    font-size: 15pt;
+    font-weight: 400;
+    color: #e9e9e9;
+}
+.block__icons{
+    padding-top: 50px;
+}
+.block__icons img{
+    padding: 7px;
+}
+.block__twits{
+    padding-top: 100px;
+    margin: 0px 45px 0px 55px;
+    float: left;
+    width: 30%;
+}
+.block__twits li{
+    margin-top: 8px;
+    color: #e9e9e9;
+    font-size: 15pt;
+    list-style: none;
+    background: url(../img/twitter.png) no-repeat 0 4px;
+    padding-left: 25px;
+}
+.block__instagram{
+    padding-top: 100px;
+    width: 35%;
+    margin: 0 auto;
+    float: left;
+}
+.block__instagram img{
+    padding: 5px;
+    width: 20%;
+    height: 20%;
+}
+/*
+**********Modal**********
+*/
+.modal{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.modal__content{
+    background-color: #fefefe;
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 56%;
+    height: 500px;
+    text-align: center;
+}
+.modal__content h2{
+    font-size: 44pt;
+    font-weight: 300;
+    color: #252525;
+
+}
+.input__content{
+    width: 90%;
+    height: 13.3%;
+    padding: 15px;
+}
+input{
+    margin-top: 20px;
+    height: 40px;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+    border: 1px solid #ccc;
+    border-radius: 1px;
+    background-color: #f8f8f8;
+    font-size: 14px;
+    resize: none;
+}
+input::placeholder{
+    color: #858585;
+
+}
+input:-ms-input-placeholder {
+  color: #858585;
+}
+
+input::-ms-input-placeholder {
+  color: #858585;
+}
+textarea{
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 1px;
+    background-color: #f8f8f8;
+    font-size: 14px;
+    resize: none;
+    font-family: 'Roboto';
+}
+textarea::placeholder{
+    color: #858585;
+
+}
+textarea:-ms-input-placeholder {
+  color: #858585;
+}
+
+textarea::-ms-input-placeholder {
+  color: #858585;
+}
+.inputName{
+    float: left;
+
+    width: 48%;
+}
+.inputPhone{
+    float: right;
+    width: 48%;
+}
+.inputEmail{;
+    width: 100%;
+}
+.inputContent{
+    margin-top: 20px;
+    width: 100%;
+    height: 150px;
+    resize: none;
+}
+.input__content button{
+    margin-top: 50px;
+    background-color: #252525;
+    padding: 20px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.close{
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+/*MEDIA*/
+@media screen and (max-width: 1360px) {
+    .footer h5{
+        font-size: 18pt;
+    }
+    .block__about__us p{
+        font-size: 14pt;
+    }
+    .block__icons{
+        padding-top: 25px;
+    }
+    .block__twits{
+        padding-top: 100px;
+        margin: 0px 30px 0px 40px;
+        float: left;
+        width: 30%;
+    }
+    .block__twits li{
+        margin-top: 8px;
+        font-size: 14pt;
+        padding-left: 20px;
+    }
+    .logo{
+        margin-top: 40px;
+        width: 140px;
+        height: 100px;
+        margin-left: 40%;
+    }
+    .topnav a{
+        padding: 0px 20px 0px 20px;
+    }
+    .wrapper p{
+      font-size: 10pt;
+    }
+    .wrapper h1{
+        font-size: 48px;
+    }
+    .number{
+        padding-top: 110px;
+        margin-right: 30px;
+    }
+    .number h6{
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 900;
+    }
+    .number .right p{
+        font-size: 12px;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: #ffffff;
+    }
+    .client{
+        display: inline-block;
+        width: 15%;
+        margin-top: 65px;
+        padding: 0px 15px 0px 15px;
+    }
+    .block__contacts h2{
+        font-size: 36pt;
+        padding-bottom: 25px;
+    }
+    .block__contacts p{
+        margin-top: 16px;
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .topnav a{
+        padding: 0px 15px 0px 15px;
+    }
+    .left{
+        float: left;
+    }
+    .right{
+        padding-left: 20px;
+    }
+    .number h6{
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 900;
+    }
+    .number .right p{
+        font-size: 12px;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: #ffffff;
+    }
+    .number{
+        padding-top: 110px;
+        margin-right: 20px;
+    }
+    .block__contacts h2{
+        font-size: 32pt;
+        padding-bottom: 25px;
+    }
+    .block__contacts p{
+        margin-top: 16px;
+        font-size: 16px;
+    }
+    .block__instagram img{
+        padding: 2px;
+        width: 22.5%;
+        height: 22.5%;
+    }
+
+}
+@media screen and (max-width: 1079px) {
+
+    .container_numbers{
+        width: 100%;
+    }
+    .about h2{
+        font-size: 36pt;
+        padding-top: 40px;
+    }
+    .about p{
+        font-size: 16px;
+        margin-top: 30px;
+    }
+    .number{
+        padding-top: 110px;
+        margin-right: 5px;
+    }
+}
+@media screen and (max-width: 999px) {
+    .logo{
+        width: 70%;
+    }
+    .topnav a{
+        display: none;
+    }
+    .topnav a.icon{
+        float: right;
+        margin-top: -17px;
+        display: block;
+        font-size: 25px;
+    }
+    nav{
+        width: 100%;
+    }
+    .topnav.responsive{
+        position: relative;
+        top: 50px;
+        left: -200px;
+    }
+    header .topnav.responsive{
+        height: 340px;
+    }
+    .topnav.responsive a.icon{
+        position: absolute;
+        top: -50px;
+        right: -200px;
+    }
+    .topnav.responsive a{
+        float: none;
+        display: block;
+        text-align: center;
+    }
+    .block__instagram img{
+        padding: 5px;
+        width: 22%;
+        height: 22%;
+    }
+}
